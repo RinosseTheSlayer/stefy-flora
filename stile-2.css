@@ -31,19 +31,24 @@ a.current {color: #093;}
 h1 {
 	font-family: 'Merriweather', serif;
 	font-size: 3.8em;
-	line-height: 1em;
 	font-weight: 700;
 	color: #000;
-	margin-left: 5%;
 	float: left;
+	text-align: left;
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
 }
 
 h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 2em;
-	line-height: 1em;
 	font-weight: 400;
 	color: #000;
+	text-align: left;
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
 }
 
 p.full {
@@ -94,61 +99,61 @@ nav {
 #row {
 	width: 100%;
 	float: left;
+
 }
 
 #col-2, #col-3, #col-4, #col-4-last #col-6, #col-8 {
-	margin-right: 0.4166666666666667%;
-	margin-left: 0.416666666666667%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
 	float: right;
 	z-index: 11;
 
 }
 
 #col-2 {
-	width: 15.833333333333332%;
+	width: 11.666666666666666%;
 }
 
 #col-3 {
-	width: 24.166666666666668%;
+	width: 20%;
 }
 
 #col-4 {
-	width: 32.5%;
+	width: 28.333333333333332%;
 }
 
 #col-6 {
-	width: 49.166666666666664%;
+	width: 45%;
 }
 
 #col-8 {
-	width: 65.83333333333333%;
+	width: 61.66666666666667%;
 }
 
 /*box*/
 
 .CS_img, .CS_p, .P_p {
-	margin-right: 0.416666666666667%;
-	margin-left: 0.416666666666667%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
 	float: left;
 	z-index: 12
 }
 
 .CS_img, .CS_p {
-	width: 15.833333333333332%;
+	width: 11.666666666666666%;
 }
 
 .P_p {
-	width: 32.77775%;
+	width: 28.333333333333332%;
 }
 
 
 /*slide*/
-.slide{
+.slide {
 	width:100%;
 	position: relative;
 	padding: 150px 0;
-	text-align: center;
-	height: 960px;
+
 	
 }
 
@@ -187,4 +192,5 @@ nav {
 	background-color:#ffffff;
 	box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
 	z-index: 10;
+	height: 960px;
 }
